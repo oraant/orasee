@@ -18,25 +18,26 @@
         <ul class="nav navbar-nav">
 
           <!-- Overview -->
-          <li class="dropdown messages-menu">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-              <i class="fa fa-envelope-o"></i>
+          <li>
+            <a href="/overview">
+              <i class="fa fa-dashboard"></i>
               <span class="hidden-xs">总览</span>
             </a>
           </li>
 
           <!-- Architecturn -->
-          <li class="dropdown messages-menu">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-              <i class="fa fa-envelope-o"></i>
-              <span class="hidden-xs">体系结构图</span>
+          <li class="dropdown notifications-menu">
+            <a href="/architecture" class="dropdown-toggle" data-toggle="dropdown">
+              <i class="fa fa-map-o"></i>
+              <span class="hidden-xs">结构</span>
+              <i class="fa fa-angle-down"></i>
             </a>
             <ul class="dropdown-menu" style="left:0"><!-- oraant custom css -->
               <li class="header">请选择要查看的数据库</li>
               <li>
                 <ul class="menu">
                   <li>
-                    <a href="#">
+                    <a href="/overview">
                       <i class="fa fa-users text-aqua"></i> 广饶生产库：rac1
                     </a>
                   </li>
@@ -60,6 +61,21 @@
                       <i class="fa fa-user text-red"></i> 广饶ODS库
                     </a>
                   </li>
+                  <li>
+                    <a href="#">
+                      <i class="fa fa-user text-red"></i> 广饶ODS库
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <i class="fa fa-user text-red"></i> 广饶ODS库
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <i class="fa fa-user text-red"></i> 广饶ODS库
+                    </a>
+                  </li>
                 </ul>
               </li>
               <li class="footer"><a href="#">修改配置</a></li>
@@ -68,10 +84,11 @@
           <!-- Architecturn End -->
 
           <!-- Tendency -->
-          <li class="dropdown messages-menu">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-              <i class="fa fa-envelope-o"></i>
-              <span class="hidden-xs">性能趋势图</span>
+          <li class="dropdown notifications-menu">
+            <a href="/tendency" class="dropdown-toggle" data-toggle="dropdown">
+              <i class="fa fa-line-chart"></i>
+              <span class="hidden-xs">趋势</span>
+              <i class="fa fa-angle-down"></i>
             </a>
             <ul class="dropdown-menu" style="left:0"><!-- oraant custom css -->
               <li class="header">请选择要查看的数据库</li>
@@ -110,9 +127,9 @@
           <!-- Tendency End -->
 
           <!-- Help -->
-          <li class="dropdown messages-menu">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-              <i class="fa fa-envelope-o"></i>
+          <li>
+            <a href="/help">
+              <i class="fa fa-dashboard"></i>
               <span class="hidden-xs">帮助</span>
             </a>
           </li>
