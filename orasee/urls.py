@@ -23,4 +23,6 @@ urlpatterns = [
     url(r'^architecture/$', webview.architecture),
     url(r'^tendency/$', webview.tendency),
     url(r'^help/$', webview.help),
+    url(r'^test/$', webview.test),
+    url(r'^test2/$', webview.test2),
 ]
