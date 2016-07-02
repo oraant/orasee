@@ -19,6 +19,7 @@ from webpage import views as webview
 
 urlpatterns = [
     url(r'^admin/$', include(admin.site.urls)),
+    url(r'^$', webview.overview),
     url(r'^overview/$', webview.overview),
     url(r'^architecture/$', webview.architecture),
     url(r'^tendency/$', webview.tendency),
